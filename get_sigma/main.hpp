@@ -12,6 +12,7 @@ public:
 	double initialize(double first_value)
 	{
 		X = first_value;
+		return first_value;
 	}
 
 	double update(double measurement)
